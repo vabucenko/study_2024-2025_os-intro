@@ -1,0 +1,11 @@
+#!/bin/sh
+exedir="/home/vabutsenko/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/lib/ghc-8.2.2/bin"
+exeprog="runghc"
+executablename="$exedir/$exeprog"
+datadir="/home/vabutsenko/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/share"
+bindir="/home/vabutsenko/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/bin"
+topdir="/home/vabutsenko/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/lib/ghc-8.2.2"
+ghcprog="ghc-8.2.2"
+#!/bin/sh
+
+exec "$executablename" -f "$bindir/$ghcprog" ${1+"$@"}
