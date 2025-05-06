@@ -33,4 +33,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/vabutsenko/pgp-key.txt" added="2025-05-06T18:06:39.797342Z" modified="2025-05-06T18:06:39.797350Z" visited="2025-05-06T18:06:39.797343Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-05-06T18:06:39.797345Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

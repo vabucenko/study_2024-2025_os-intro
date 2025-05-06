@@ -20,7 +20,7 @@ Word Wrap Marker=false
 
 [MainWindow]
 600x480 screen: Height=421
-600x480 screen: Width=712
+600x480 screen: Width=218
 
 [filetree]
 editShade=183,220,246

@@ -1,3 +1,9 @@
+[Document 0]
+URL=file:///home/vabutsenko/pgp-key.txt
+
+[Document 1]
+URL=file:///home/vabutsenko/mykey.asc
+
 [Kate Plugins]
 cmaketoolsplugin=false
 compilerexplorer=false
@@ -35,11 +41,11 @@ textfilterplugin=true
 
 [MainWindow0]
 Active ViewSpace=0
-Kate-MDI-H-Splitter=0,672,0
+Kate-MDI-H-Splitter=87,87,0
 Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,lspclient_symbol_outline
 Kate-MDI-Sidebar-0-LastSize=160
 Kate-MDI-Sidebar-0-SectSizes=0
-Kate-MDI-Sidebar-0-Splitter=338
+Kate-MDI-Sidebar-0-Splitter=337
 Kate-MDI-Sidebar-1-Bar-0-TvList=
 Kate-MDI-Sidebar-1-LastSize=200
 Kate-MDI-Sidebar-1-SectSizes=0
@@ -47,11 +53,11 @@ Kate-MDI-Sidebar-1-Splitter=338
 Kate-MDI-Sidebar-2-Bar-0-TvList=
 Kate-MDI-Sidebar-2-LastSize=200
 Kate-MDI-Sidebar-2-SectSizes=0
-Kate-MDI-Sidebar-2-Splitter=556
+Kate-MDI-Sidebar-2-Splitter=508
 Kate-MDI-Sidebar-3-Bar-0-TvList=output,diagnostics,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin
 Kate-MDI-Sidebar-3-LastSize=200
 Kate-MDI-Sidebar-3-SectSizes=0
-Kate-MDI-Sidebar-3-Splitter=712
+Kate-MDI-Sidebar-3-Splitter=120
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-diagnostics-Position=3
@@ -68,7 +74,7 @@ Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Show-Button-In-Sidebar=t
 Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
 Kate-MDI-ToolView-kateproject-Position=0
 Kate-MDI-ToolView-kateproject-Show-Button-In-Sidebar=true
-Kate-MDI-ToolView-kateproject-Visible=false
+Kate-MDI-ToolView-kateproject-Visible=true
 Kate-MDI-ToolView-kateprojectgit-Position=0
 Kate-MDI-ToolView-kateprojectgit-Show-Button-In-Sidebar=true
 Kate-MDI-ToolView-kateprojectgit-Visible=false
@@ -80,8 +86,8 @@ Kate-MDI-ToolView-lspclient_symbol_outline-Show-Button-In-Sidebar=true
 Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
 Kate-MDI-ToolView-output-Position=3
 Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
-Kate-MDI-ToolView-output-Visible=false
-Kate-MDI-V-Splitter=0,338,0
+Kate-MDI-ToolView-output-Visible=true
+Kate-MDI-V-Splitter=0,133,200
 
 [MainWindow0 Settings]
 WindowState=8
@@ -89,14 +95,20 @@ WindowState=8
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
-Sizes=672
+Sizes=87
 
 [MainWindow0-ViewSpace 0]
-Count=0
-Documents=
+Active View=0
+Count=2
+Documents=0,1
+View 0=0
+View 1=1
+
+[MainWindow0-ViewSpace 0 0]
+ScrollLine=50
 
 [Open Documents]
-Count=0
+Count=2
 
 [Open MainWindows]
 Count=1
@@ -132,6 +144,12 @@ UseRegExp=false
 File1[$e]=$HOME/1.txt
 File2[$e]=$HOME/Рабочий стол/Новый файл
 File3[$e]=$HOME/key.txt
+File4[$e]=$HOME
+File5[$e]=$HOME/mykey.asc
+File6[$e]=$HOME/pgp-key.txt
 Name1[$e]=1.txt
 Name2[$e]=Новый файл
 Name3[$e]=key.txt
+Name4[$e]=vabutsenko
+Name5[$e]=mykey.asc
+Name6[$e]=pgp-key.txt
