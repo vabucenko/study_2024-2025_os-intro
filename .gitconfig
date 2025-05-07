@@ -3,3 +3,5 @@
 	email = 1032200547@pfur.ru
 [core]
 	quotepath = false
+[lfs]
+	cachepath = /tmp/git-lfs-cache

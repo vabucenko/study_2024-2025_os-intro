@@ -1,0 +1,5 @@
+.stack/
+.cache/
+*.sqlite3
+*.a
+*.gz
