@@ -79,3 +79,14 @@ gsettings set org.gnome.desktop.input-sources xkb-options "['grp:ctrl_shift_togg
 gsettings get org.gnome.desktop.input-sources sources
 gsettings get org.gnome.desktop.input-sources xkb-options
 reboot
+mkdir -p ~/work/study/2024-2025/"Operacionnie systems"
+cd ~/work/study/2024-2025/"Operacionnie systems"
+gh repo create study_2024-2025_os-intro --template=yamadharma/course-directory-student-template --public
+cd
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg
+sudo mkdir -p /usr/share/keyrings/
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo dnf install 'dnf-command(config-manager)'
+sudo dnf install config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
